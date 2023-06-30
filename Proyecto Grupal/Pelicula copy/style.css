@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.733);
+    height: 90px;
+    width: auto;
+    display: flex;
+}
+
+button{
+    width:70px ;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 30px ;
+    background-color:rgba(51, 5, 95, 0.507) ;
+    color: white;
+}
+button:hover{
+    color:rgba(51, 5, 95, 0.507) ;
+    background-color: white;
+}
+
+.logo{
+    background-color: rgb(36, 5, 5);
+    height: 90px;
+    width: 200px;
+    margin-left: 450px;
+}
+
+body{
+    background-image:url("/Pelicula/imgenes/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-attachment: fixed;   
+}
+
+.Introtrailer{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: bisque;
+    font-size: 40px;
+}
+
+b{
+    color: rgb(177, 177, 177);
+}
+.sinopsis{
+    
+    width: 700px;
+    font-size: 27px;
+}
+.texto{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 249, 252, 0.568);
+}
+.peli{
+    width: 400px;
+    height: 500px;
+    margin-right: 100px;
+}
+
+.contenido{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px auto auto 30px;
+}
+
+.conjunto-plataformas{
+    text-align: center;
+    color: white;
+    font-size:30px ;
+    margin-bottom: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(140, 230, 200);
+    font-size: 20px;
+}
+
+.intro{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.critica1{
+    width: 700px;
+    height: 300px;
+    background-color: white;
+    margin: 10px auto 50px auto;
+    text-align: center;
+    font-family: cursive;
+}
+h5{
+    color: white;
+}
+
+.porcentaje{
+    display: flex;
+    font-size: 60px;
+}
+
+.img{
+    width: 80px;
+    height: 80px;
+}
+
+.img2{
+    width: 80px;
+    height: 80px;
+}
+
+.img3{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 7px;
+}
+
+.secciones, .plataformas1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.porcentaje1{
+    display: flex;
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+ul{
+    color: aliceblue;
+}

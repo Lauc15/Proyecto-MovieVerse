@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+}
+body{
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+.contenido-log{
+    width: 30%;
+    margin: 10% auto 10% auto;
+    align-items: center;
+    text-align: center;
+    height: 240px;
+    background-color: rgba(126, 126, 126, 0.507) ;
+}
+
+a{
+    text-decoration-line: none;
+    color: black;
+}

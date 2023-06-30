@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas</title>
+</head>
+<body>
+
+    <form action="">
+        <div class="category">Género</div>
+        <div class="box-category" hidden>
+            <input type="checkbox" class="category-terror">Terror
+            <input type="checkbox" class="category-ciencia_ficcion">Ciencia Ficción
+            <input type="checkbox" class="category-comedy">Comedia
+        </div>
+        <div class="classification">Clasificación</div>
+        <div class="box-classification" hidden>
+            <input type="checkbox" class="classification-+18">+18
+            <input type="checkbox" class="classification-+16">+16
+            <input type="checkbox" class="classification-+13">+13
+            <input type="checkbox" class="classification-APT">APT
+        </div>
+        <div class="style">Estilo</div>
+        <div class="box-style" hidden>
+            <input type="checkbox" class="style-realista">Realista
+            <input type="checkbox" class="style-animado">Animado
+        </div>
+        <input type="submit">
+    </form>
+    <div class="ordContainer"></div>
+    <div class="movies">
+        <div class="p1 category-comedy classification-+13">pelicula comedia +13</div>
+        <div class="p2 category-terror classification-+18">pelicula terror +18</div>
+        <div class="p3 category-comedy category-terror classification-+18">pelicula comedia terror +18</div>
+    </div>
+    
+
+    <script src="scripts.js"></script>
+</body>
+</html>
